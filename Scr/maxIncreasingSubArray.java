@@ -39,11 +39,13 @@ public class maxIncreasingSubArray {
 	    	}			
 		}
 	    //"下标数组，用来记录数组中元素能在最大递增数组中的位置"
-	    System.out.print("记录数组中元素能在最大递增数组中的位置");
+	    System.out.println("记录数组中元素能在最大递增数组中的位置");
 	    for (int i = 0; i < IndexArray.length; i++) {
 	    	 System.out.print(IndexArray[i]+"  ");
 		}
-	   printLongestUpArray(maxLength-1, maxArray, IndexArray);
+	    System.out.println();
+	    
+	   printLongestUpArray(maxLength-1, array, IndexArray);
 	}
 
 }
